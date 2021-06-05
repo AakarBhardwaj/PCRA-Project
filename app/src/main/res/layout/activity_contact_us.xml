@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fffee9"
+    tools:context=".ContactUsActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:text="Contact Us"
+                android:textColor="#006400"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="Head Office (Project Secretariat)"
+                android:textColor="#3a3b3c"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:text="City : Delhi\nAddress : PCRA, Sanrakshan Bhavan, 10 - Bhikaji Cama Place, New Delhi- 110066.\nPhone : 91-11-26198856\nFax : 91-11-26109668"
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textColor="#787276" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Regional Offices"
+                    android:textColor="#3a3b3c"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:text="City : Delhi(Northern)\nAddress : PCRA, Sanrakshan Bhavan, 10 - Bhikaji Cama Place, New Delhi- 110066.\nPhone : 91-11-26198856\nFax : 91-11-26109668"
+                    android:layout_width="match_parent"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textColor="#787276" />
+
+                <TextView
+                    android:text="City : Kolkata(Eastern)\nAddress : No. 2,Gariahat Road (South), Dhakuria, 6th Floor, IOCL Bhawan, Kolkata –700068\nPhone : 91-33-24145092\nFax : 91-33-24145091"
+                    android:layout_width="match_parent"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textColor="#787276" />
+
+                <TextView
+                    android:text="City : Mumbai(Western)\nAddress : C-5, Kesva Building, Gr Floor, Bandra Kurla Complex, Bandra East, Mumbai-400 051\nPhone : 91-22-26592181\nFax : 91-22-26590034"
+                    android:layout_width="match_parent"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textColor="#787276" />
+
+                <TextView
+                    android:text="City : Chennai(Southern)\nAddress : PCRA, BSNL (TN Circle), Tower-2, Ground Floor, No-16, Greams Road, Chennai-600006\nPhone : 91-44-26592181\nFax : 91-44-8521662"
+                    android:layout_width="match_parent"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textColor="#787276" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Sub-Regional Offices"
+                    android:textColor="#3a3b3c"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:textSize="15sp"
+                    android:id="@+id/link_tv_id"
+                    android:text="@string/messageWithLink"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

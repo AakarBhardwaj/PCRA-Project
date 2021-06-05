@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#fffee9"
+    tools:context=".AgriculturalActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:text="Save Diesel in Tractors"
+                android:textColor="#006400"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+              <LinearLayout
+                  android:padding="10dp"
+                  android:orientation="vertical"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Know your tractor"
+                android:textColor="#3a3b3c"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="#787276"
+                    android:text="Your manual will tell you everything you need to know about the maintenance and operation of your tractor. Research shows that a badly maintained tractor wastes up to 25 % of precious diesel."
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                  <TextView
+                      android:textStyle="bold|italic"
+                      android:textColor="#3a3b3c"
+                      android:text="Remember : "
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"/>
+
+                  <TextView
+                      android:textStyle="bold"
+                      android:textColor="#787276"
+                      android:text="When it doubt, check with a reputed garage or your dealer."
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"/>
+              </LinearLayout>
+            <ImageView
+            android:src="@drawable/tractor"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"/>
+            <View
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:background="#000000"
+                android:layout_width="300dp"
+                android:layout_height="1dp"/>
+
+            <LinearLayout
+                android:padding="10dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Stop diesel leaks"
+                    android:textColor="#3a3b3c"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="#787276"
+                    android:text="Check your tractor daily. A leak of one drop per second can cost you 2000 liters of diesel per year."
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:textStyle="bold|italic"
+                    android:textColor="#3a3b3c"
+                    android:text="Remember : "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="#787276"
+                    android:text="Inspect joints in Fuel tank, Fuel pump, Fuel injector and Fuel lines."
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <ImageView
+                android:src="@drawable/diesel"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"/>
+            <View
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:background="#000000"
+                android:layout_width="300dp"
+                android:layout_height="1dp"/>
+
+            <LinearLayout
+                android:padding="10dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Turn your engine off, when you stop"
+                    android:textColor="#3a3b3c"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="#787276"
+                    android:text="An idling tractor wastes more than 1 liter of diesel every hour."
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:textStyle="bold|italic"
+                    android:textColor="#3a3b3c"
+                    android:text="Remember : "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="#787276"
+                    android:text="Keep your battery, alternator and self-starter in top running condition. If they are faulty they can force you to idle."
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <ImageView
+                android:src="@drawable/turnoffengine"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"/>
+            <View
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:background="#000000"
+                android:layout_width="300dp"
+                android:layout_height="1dp"/>
+
+            <LinearLayout
+                android:padding="10dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Drive in the correct gear-always"
+                    android:textColor="#3a3b3c"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="#787276"
+                    android:text="If your tractor struggles to pull a load with the throttle at maximum, shift to a lower gear. If it accelerates, shift to a higher gear. Wrong gear selection can increase fuel consumption by 30% and reduce field output by 50%."
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:textStyle="bold|italic"
+                    android:textColor="#3a3b3c"
+                    android:text="Remember : "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="#787276"
+                    android:text="Smoke from a tractor indicates overloading."
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <ImageView
+                android:src="@drawable/driveincorrectgear"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"/>
+            <View
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:background="#000000"
+                android:layout_width="300dp"
+                android:layout_height="1dp"/>
+
+            <LinearLayout
+                android:padding="10dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Does your tractor smoke, too? "
+                    android:textColor="#3a3b3c"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="#787276"
+                    android:text="A tractor that smokes excessively wastes precious diesel. Oversized implements or using the wrong gear, cause tractor smoke. If your tractor continues to smoke, have it overhauled at a reputable garage. Test nozzles and recalibrate the fuel injection pump. Faulty fuel injection can increase fuel consumption by 25 %."
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:textStyle="bold|italic"
+                    android:textColor="#3a3b3c"
+                    android:text="Remember : "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="#787276"
+                    android:text="Never use oversized implements.Service the engine regularly."
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <ImageView
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/tractorsmoke"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"/>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

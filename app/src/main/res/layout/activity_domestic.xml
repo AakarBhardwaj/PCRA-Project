@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fffee9"
+    tools:context=".DomesticActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:text="Make Gas and Kerosene last longer"
+                android:textColor="#006400"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:padding="10dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A few minutes of planning ensures a big fuel saving"
+                    android:textColor="#3a3b3c"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="#787276"
+                    android:text="Every thrifty you can avoid an idle flame if you prepare and keep all materials required for cooking within reach, before lighting the stove. Experiments have revealed that keeping the flame of the larger burner burning unnecessarily in a gas stove, results Even a few paise saved everyday will amount to a sizeable saving by the end of a month."
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:textStyle="bold|italic"
+                    android:textColor="#3a3b3c"
+                    android:text="Remember : "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="#787276"
+                    android:text="Light your stove only after you have kept all the ingredients within your reach and ready for cooking. Put off an idle flame at once."
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <ImageView
+                    android:layout_marginTop="4dp"
+                    android:src="@drawable/cookingstove"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"/>
+                <View
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center"
+                    android:background="#000000"
+                    android:layout_width="300dp"
+                    android:layout_height="1dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:padding="10dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pressure cooking saves fuel"
+                    android:textColor="#3a3b3c"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="#787276"
+                    android:text="Pressure cooking is one of the fastest and most economical ways of cooking. Experiments have shown fuel (kerosene or cooking gas) savings of 20% on rice, 46% on soaked gram dal and 41.5% on meat, as compared to ordinary cooking. The savings in cooking time were equally high. To obtain further savings from a pressure cooker, use the separators of the cooker to cook different items such as rice, vegetable and dal, all at the same time. Just think of the fuel and money you will save! And have your entire meal ready quickly."
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:textStyle="bold|italic"
+                    android:textColor="#3a3b3c"
+                    android:text="Remember : "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="#787276"
+                    android:text="Pressure cooking saves Fuel and time. Use separators in the pressure cooker to cook different items at the same time."
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <ImageView
+                    android:src="@drawable/pressurecooker"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"/>
+                <View
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center"
+                    android:background="#000000"
+                    android:layout_width="300dp"
+                    android:layout_height="1dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:padding="10dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Use optimum quantity of water"
+                    android:textColor="#3a3b3c"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="#787276"
+                    android:text="The quantity of water used differs for various dishes. And even for the same dish, different housewives use varying quantities of water. Since water is extensively used in cooking, you should remember that surplus water wastes fuel. Besides, when the excess water is drained subsequently, precious nutrients are lost. An experiment on cooking rice with double the required quantity of water has revealed that fuel consumption increased by 65% So use only the optimum quantity of water for cooking."
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:textStyle="bold|italic"
+                    android:textColor="#3a3b3c"
+                    android:text="Remember : "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="#787276"
+                    android:text="Surplus water consumes additional fuel which could otherwise be saved."
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <ImageView
+                    android:src="@drawable/waterinkitchen"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"/>
+                <View
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center"
+                    android:background="#000000"
+                    android:layout_width="300dp"
+                    android:layout_height="1dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="10dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Reduce the flame when boiling starts"
+                    android:textColor="#3a3b3c"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="#787276"
+                    android:text="When a vessel’s contents reach boiling point, a low flame is enough to keep them boiling. Addition of more heat at the boiling stage causes further evaporation of the liquid without serving any useful purpose. Hence, when water or any other liquid is boiling, reduction in the flame will reduce wastage. This is possible in a gas stove by turning the know to ‘simmer’ position or in a kerosene stove by lowering the wicks. Experiments conducted have revealed a saving of 25% fuel when the flame was reduced after boiling had started. Try it yourself. You will find that the time taken to cook is just the same."
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:textStyle="bold|italic"
+                    android:textColor="#3a3b3c"
+                    android:text="Remember : "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="#787276"
+                    android:text="Always reduce the flame once boiling starts."
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <ImageView
+                    android:src="@drawable/boilingwater"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"/>
+                <View
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center"
+                    android:background="#000000"
+                    android:layout_width="300dp"
+                    android:layout_height="1dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Soak before cooking"
+                android:textColor="#3a3b3c"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:textStyle="bold"
+                android:textColor="#787276"
+                android:text="Experiments have shown that soaking ingredients such as dal and rice for various intervals of time before cooking saves fuel. 250 gms of kabuli chana (chick peas) when soaked overnight in water consumed 22% less fuel as compared to the fuel required for the same quantity of unsoaked kabuli chana."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:textStyle="bold|italic"
+                android:textColor="#3a3b3c"
+                android:text="Remember : "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:textStyle="bold"
+                android:textColor="#787276"
+                android:text="Sizeable savings in fuel are possible if you soak cereals in water before cooking."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+                <ImageView
+                    android:layout_marginTop="4dp"
+                    android:src="@drawable/soakbeforecooking"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"/>
+
+        </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

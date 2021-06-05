@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fffee9"
+    tools:context=".TransportActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:text="Good Driving Habits"
+                android:textColor="#006400"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:padding="10dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Drive between 45-55 Km/H"
+                    android:textColor="#3a3b3c"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="#787276"
+                    android:text="Drive slow and steady. The faster you go, the more wind resistance your vehicle will face. If you go at speeds above 60 Km/H, you will waste fuel. Tests on Indian cars prove that you can get up to 40 % extra mileage at 45-55 Km/H as against 80 Km/H."
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:textStyle="bold|italic"
+                    android:textColor="#3a3b3c"
+                    android:text="Remember : "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="#787276"
+                    android:text="Avoid accelerating or decelerating unnecessarily. Avoid braking by anticipating stops and curves well in advance. Tests show that a reduction in speed leads to no appreciable rise in commuting time."
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <ImageView
+                    android:layout_marginTop="2dp"
+                android:src="@drawable/speedlimit"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"/>
+                <View
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center"
+                    android:background="#000000"
+                    android:layout_width="300dp"
+                    android:layout_height="1dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="10dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Keep your engine healthy"
+                    android:textColor="#3a3b3c"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="#787276"
+                    android:text="Tests on a large number of cars prove that you can save as much as 6% by tuning your car regularly. If your engine emits black smoke, has poor pulling power or consumes large quantities of oil, get it checked immediately at a reputed garage. A delay, may prove more expensive in terms of fuel and lubricating oil as compared to the cost of an overhaul."
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:textStyle="bold|italic"
+                    android:textColor="#3a3b3c"
+                    android:text="Remember : "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="#787276"
+                    android:text="Use of bi-metallic spark plugs saves over 1.5% fuel and reduces exhaust emissions also. Get your car serviced at every 5000 kms."
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <ImageView
+                    android:src="@drawable/carengine"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"/>
+                <View
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center"
+                    android:background="#000000"
+                    android:layout_width="300dp"
+                    android:layout_height="1dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="10dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Drive in the Correct Gear"
+                    android:textColor="#3a3b3c"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="#787276"
+                    android:text="Incorrect gear shifting can lead to as much as 20% increase in fuel consumption. "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:textStyle="bold|italic"
+                    android:textColor="#3a3b3c"
+                    android:text="Remember : "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="#787276"
+                    android:text="For city driving, change to a higher gear when you are sure the engine will not struggle. Get into top gear as soon as possible. It is advisable to follow the manufacturer's recommendation."
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <ImageView
+                    android:src="@drawable/correctgear"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"/>
+                <View
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center"
+                    android:background="#000000"
+                    android:layout_width="300dp"
+                    android:layout_height="1dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="10dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Good Braking Habits"
+                    android:textColor="#3a3b3c"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="#787276"
+                    android:text="Stop-and-go driving wastes fuel. When you slam on the brakes, a lot of useful energy is wasted in the form of heat. A good driver always anticipates stops."
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:textStyle="bold|italic"
+                    android:textColor="#3a3b3c"
+                    android:text="Remember : "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="#787276"
+                    android:text="Test wheels for free rotation when your car is being serviced. Binding of brakes restricts free wheel movement and the engine consumes more fuel in order to overcome resistance. Check wheel alignment at regular intervals."
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <ImageView
+                    android:src="@drawable/brakes"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"/>
+                <View
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center"
+                    android:background="#000000"
+                    android:layout_width="300dp"
+                    android:layout_height="1dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="10dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Keep your Foot off the Clutch "
+                    android:textColor="#3a3b3c"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="#787276"
+                    android:text="Use clutch only when you change gears. Riding the clutch causes loss of energy and damages clutch-linings."
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:textStyle="bold|italic"
+                    android:textColor="#3a3b3c"
+                    android:text="Remember : "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="#787276"
+                    android:text="Use your handbrake when stopped on an upgrade and don’t forget to release it when restarting. Don’t manipulate the clutch and accelerator to stay stationary because it wastes fuel."
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <ImageView
+                    android:src="@drawable/clutch"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

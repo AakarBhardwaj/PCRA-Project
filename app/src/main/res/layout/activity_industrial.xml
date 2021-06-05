@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fffee9"
+    tools:context=".IndustrialActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:text="Conservation Tips"
+                android:textColor="#006400"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="General"
+                android:textColor="#3a3b3c"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:textStyle="bold"
+                android:textColor="#787276"
+                android:text="\u2022 Undertake regular energy audits.\n\u2022 Plug all oil leakage. Leakage of one drop of oil per second amounts to a loss of over 2000 liters/year.\n\u2022 Filter oil in stages. Impurities in oil affect combustion.\n\u2022 Pre-heat the oil. For proper combustion, oil should be at right viscosity at the burner tip. Provide adequate Pre-heat capacity.\n\u2022 Use of Low air pressure “film burners” helps save oil upto 15% in furnaces."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+                <ImageView
+                    android:src="@drawable/generalconservation"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"/>
+            <View
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:background="#000000"
+                android:layout_width="300dp"
+                android:layout_height="1dp"/>
+        </LinearLayout>
+            <LinearLayout
+                android:padding="10dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Furnace"
+                    android:textColor="#3a3b3c"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="#787276"
+                    android:text="\u2022 Recover and utilize waste heat from furnace flue gase for preheating of combustion air. Every 21°C rise in combustion air temperature results in 1% fuel oil savings.\n\u2022 Control excess air in furnaces. A 10% drop in excess air amounts to 1% saving of fuel in furnaces. For an annual consumption of 3000 kl. of furnace oil. This means a saving of Rs 7.5 Lacs. (Cost of furnace oil-Rs. 25 per litre).\n\u2022 Reduce heat losses through furnace openings. Observations show that a furnace operating at a temperature of 1000°C having an open door (1500mm*750mm) results in a fuel loss of 10 lit/hr. For a 4000 hrs. furnace operation this translates into a loss of approx. Rs. 10 Lacs per year."
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <ImageView
+                    android:src="@drawable/furnace"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"/>
+                <View
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center"
+                    android:background="#000000"
+                    android:layout_width="300dp"
+                    android:layout_height="1dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="10dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Boiler"
+                    android:textColor="#3a3b3c"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="#787276"
+                    android:text="\u2022 Remove soot deposits when flue gas temperature raises 40°C above the normal. A coating of 3mm thick soot on the heat transfer surface can cause an increase in fuel consumption of as much as 2.5%.\n\u2022 Recover heat from steam condense. For every 6°C rise in boiler feed water temperature through condense return, there is 1% saving in fuel.\n\u2022 Improve boiler efficiency. Boilers should be monitored for flue gas losses, radiation losses, incomplete combustion, blow down losses, excess air etc. Proper control can decrease the consumption upto 20%. "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <ImageView
+                    android:src="@drawable/boiler"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"/>
+                <View
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center"
+                    android:background="#000000"
+                    android:layout_width="300dp"
+                    android:layout_height="1dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:padding="10dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="DG Sets"
+                    android:textColor="#3a3b3c"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="#787276"
+                    android:text="\u2022 Maintain diesel engines regularly.\n\u2022 A poorly maintained injection pump increases fuel consumption by 4Gms/KWH.\n\u2022 A faulty nozzle increases fuel consumption by 2Gms/KWH.\n\u2022 Blocked filters increase fuel consumption by 2Gms/KWH.\n\u2022 A continuously running DG set can generate 0.5 Ton/Hr of steam at 10 to 12 bars from the residual heat of the engine exhaust per MW of the generator capacity.\n\u2022 Measure fuel consumption per KWH of electricity generated regularly. Take corrective action in case this shows a rising trend."
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <ImageView
+                    android:src="@drawable/dgsets"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"/>
+                <View
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center"
+                    android:background="#000000"
+                    android:layout_width="300dp"
+                    android:layout_height="1dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:padding="10dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tips for Electrical Energy Conservation"
+                    android:textColor="#3a3b3c"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="#787276"
+                    android:text="\u2022 Improve power factor by installing capacitors to reduce KVA demand charges and also line losses within plant.\n\u2022 Improvement of power factor from 0.85 to 0.96 will give 11.5% reduction of peak KVA and 21.6% reduction in peak losses. This corresponds to 14.5% reduction in average losses for a load factor of 0.8. \n\u2022 Avoid repeated rewinding of motors. Observations show that rewound motors practically have an efficiency loss of upto 5%. This is mainly due to increase in no load losses. Hence use such rewound motors on low duty cycle applications only. "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <ImageView
+                    android:layout_marginBottom="5dp"
+                    android:src="@drawable/electricalenergy"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
